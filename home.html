@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Box of Records</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Box of Records</h1>
+            <p>A listening archive, kept by Alex W.</p>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="crate.html">The Collection</a>
+                <a href="about.html">About the Box</a>
+                <a href="opsec.html">Red Team Click Here</a>
+                <span class="note1">PERSONAL LISTENING LOG / NOTES</span>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-copy">
+                    <h2 class="hero-title">The good ones<br>go in <span>THE BOX.</span></h2>
+                    <p class="hero-intro">A growing pile of favorite albums, and why I think they're so awesome. -Alex W.</p>
+                </div>
+                <a class="hero-crate" href="crate.html" aria-label="Browse the collection">
+                    <canvas id="crate-scene" aria-hidden="true">Asset 3D wooden crate filled with vinyl sleeves.</canvas>
+                    <span class="scene-fallback" role="status">This content is not supported in this browser.</span>
+                </a>
+            </section>
+
+            <section id="top-three" aria-labelledby="top-three-heading">
+                <p>THE SHORTLIST</p>
+                <h2 id="top-three-heading">Top of the stack.</h2>
+                <p>Three albums I keep coming back to. In no particular order.</p>
+                <ol>
+                    <li>
+                        <article>
+                            <h3 class="album-title"><span class="note2">01</span> Dark Side of the Moon</h3>
+                            <p class="album-artist">Pink Floyd / 1973</p>
+                            <img src="img/dark_side_of_the_moon.jpg" alt="Dark Side of the Moon album cover" class="album-cover">
+                            <p class="album-description">Timeless. Transcendent. Beautifully Human. One of the greatest albums ever recorded and a masterpiece of progressive / psychedelic rock.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h3 class="album-title"><span class="note2">02</span> Jar of Flies</h3>
+                            <p class="album-artist">Alice in Chains / 1994</p>
+                            <img src="img/jar-of-flies.png" alt="Jar of Flies album cover" class="album-cover">
+                            <p class="album-description">A raw, emotional album that deviates from their usual sound.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h3 class="album-title"><span class="note2">03</span> Discovery</h3>
+                            <p class="album-artist">Daft Punk / 2007</p>
+                            <img src="img/discovery.jpg" alt="Discovery album cover" class="album-cover">
+                            <p class="album-description">A groundbreaking album that revolutionized electronic music.</p>
+                        </article>
+                    </li>
+                </ol>
+            </section>
+
+            <section id="recent-additions" aria-labelledby="recent-additions-heading">
+                <p>FRESH IN THE CRATE</p>
+                <h2 id="recent-additions-heading">Recent additions</h2>
+                <ol>
+                    <li>
+                        <article>
+                            <h3 class="album-title">This Old Dog</h3>
+                            <p class="album-artist">Mac DeMarco / 2012</p>
+                            <p class="album-description">A introspective and melancholic album that captures the essence of youthful reflection.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h3 class="album-title">Random Access Memories</h3>
+                            <p class="album-artist">Daft Punk / 2013</p>
+                            <p class="album-description">A poetic statement about clinging to humanity in a world that continues to grow more digital.</p>
+                        </article>
+                    </li>
+                </ol>
+                <p><a href="crate.html">Browse the full collection</a></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Box of Records</p>
+        </footer>
+        <script type="module" src="js/crate-scene.js"></script>
+    </body>
+</html>
